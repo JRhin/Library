@@ -10,7 +10,7 @@ Some useful functions used for visualization purposes.
   Plots decision boundaries of model predicting on X in comparison to y.
   - Input:
     - model (`torch.nn.Module`): our model.
-    - X (`torch.Tensor`): The data on which we predict.
+    - X (`torch.Tensor`): The data on which we predict on.
     - Y (`torch.Tensor`): The true labels.
   - Ouput:
     - None
