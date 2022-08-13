@@ -4,6 +4,14 @@ import numpy as np
 
 def plot_decision_boundary(model: torch.nn.Module, X: torch.Tensor, y: torch.Tensor):
     """Plots decision boundaries of model predicting on X in comparison to y.
+
+    Input:
+        model: torch.nn.Module
+        X: torch.Tensor
+        y: torch.Tensor
+
+    Output:
+        None
     Source - https://madewithml.com/courses/foundations/neural-networks/ (with modifications)
     """
     # Put everything to CPU (works better with NumPy + Matplotlib)
