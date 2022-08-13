@@ -5,12 +5,12 @@ import numpy as np
 def plot_decision_boundary(model: torch.nn.Module, X: torch.Tensor, y: torch.Tensor) -> None:
     """Plots decision boundaries of model predicting on X in comparison to y.
 
-    Input:
+    Args:
         model (torch.nn.Module): Our model.
         X (torch.Tensor): The data on which we predict on.
         y (torch.Tensor): The true labels.
 
-    Output:
+    Returns:
         None
 
     Source - https://madewithml.com/courses/foundations/neural-networks/ (with modifications)
