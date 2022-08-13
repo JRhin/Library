@@ -6,7 +6,7 @@ A repository containing my personal functions library.
 
 Some useful functions used for visualization purposes.
 
-* plot_decision_boundary():
+* **plot_decision_boundary()**:
   Plots decision boundaries of model predicting on X in comparison to y.
   - Input:
     - model: a `torch.nn.Module`
